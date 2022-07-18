@@ -1,0 +1,12 @@
+.cantainer{
+    width: 1300px;
+    height:150px;
+    margin-bottom: 10px;
+    outline: solid;
+    color: brown;
+    padding: 30px;
+}
+.style{
+    font-size: 35px;
+    color: darkgreen;
+}
