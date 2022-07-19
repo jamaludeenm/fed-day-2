@@ -3,3 +3,116 @@
     margin: auto;
     outline: solid 2px;
 }
+.flex-header{
+    display:flex;
+    justify-content: space-between;
+    padding: 25px;
+}
+.flex-banner{
+    display: flex;
+       
+}
+.banner-content{
+    width: 13px;
+    height: 577px;
+}
+.flex-acheivment{
+    display: flex;
+    flex-wrap: wrap;
+    padding: 25px;
+}
+.acheive{
+    width: 25%;
+    height: 100px;
+    outline: solid 2px black;
+}
+.acheive-s{
+    width: 250%;
+    height: 150px;
+    outline: 2px black;
+    
+}
+.flex-explain {
+    display: flex;
+    justify-content:space-evenly;
+    padding: 25px;
+}
+.explain{
+    width: 33.33%;
+    height:150px;
+    outline: solid 2px black;
+}
+.flex-present{
+    display: flex;
+    flex-wrap: wrap;
+    padding: 25px;
+}
+.present{
+    width: 25%;
+    height: 100px;
+    outline: solid 2px black;
+}
+.present-s{
+    width: 250%;
+    height: 150px;
+    outline: solid 2px black;
+}
+
+.flex-service{
+    display: flex;
+    flex-wrap: wrap;
+    padding: 25px;
+}
+.service{
+    width: 50%;
+    height: 100px;
+    outline: solid 2px black;
+}
+.img-e{
+    width: 250%;
+    height: 190px;
+    padding: 25px;
+}
+.flex-pro{
+    display: flex;
+    flex-wrap: wrap;
+    padding: 25px;
+}
+.pro{
+    width: 100%;
+    height: 430px;
+    outline: 2px black;
+}
+.flex-group{
+    display: flex;
+    flex-wrap: wrap;
+    padding: 35px;
+}
+.group{
+    width: 33.3%;
+    height: 300px;
+    outline: solid 2px black;
+}
+.flex-contact{
+    display: flex;
+    flex-wrap: wrap;
+
+}
+.con{
+    width:100%;
+    height: 340px;
+}
+.flex-footer{
+    display: flex;
+    flex-wrap: wrap;
+    padding: 25px;
+}
+.foot{
+    width: 25%;
+    height: 270px;
+    outline: solid 2px black;
+}
+.legal{
+    width: 100%;
+    height: 30px;
+}
