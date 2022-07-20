@@ -1,12 +1,130 @@
-.cantainer{
-    width: 1300px;
-    height:150px;
-    margin-bottom: 10px;
-    outline: solid;
-    color: brown;
-    padding: 30px;
+.container{
+    width: 100%;
+    height:auto;
+    outline: solid 2px black;
+    
+    
+    
 }
-.style{
-    font-size: 35px;
-    color: darkgreen;
+.bgcan{
+    background-color: black;
 }
+.header{
+    display: flex;
+    margin-left: 101px;
+    margin-right: 101px;
+    justify-content: space-between;
+    background-color: black;
+}
+.logo{
+width: 20%;
+margin: 10px;
+font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+font-size: 30px;
+color:red;
+padding: 20px;
+
+
+}
+.navi{
+    width: 80%;
+    margin: 10px;
+    font-family: fantasy;
+    display: flex;
+    justify-content: space-evenly;
+         
+}
+.navi ul{
+    display: flex;
+    justify-content:space-around;
+    gap: 8%;
+    font-size:20px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif ;
+}
+.navi a{
+    text-decoration: none;
+    color: white;
+    
+}
+
+.navi li{
+    list-style: none;
+}
+.b1{
+    margin-left:20%;
+    font-size: 25px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: black;
+    color: white;
+    border-radius:20px;
+    border: solid 3px yellow;
+
+}
+.banner{
+    margin-left: 101px;
+    margin-right: 101px;
+    padding-bottom:20px; 
+
+}
+.text-1{
+    display:flex;
+    justify-content: center;
+    font-size: 40px;
+    margin-bottom: 0%;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+.text-2{
+    display: flex;
+    justify-content: center;
+    font-size: 25px; 
+    padding-bottom: 30px;   
+}
+.box{
+    display: flex;
+    justify-content: space-evenly;
+}
+.box1{
+    padding: 5%;
+    outline: solid 1px white;
+    background-image: url(../image/box-1.jpg);
+    box-shadow: 20px 0 40px 0px;
+    font-family: sans-serif;
+    font-size: larger;
+    background-size: 170px;
+    color: white;
+    
+
+}
+.box2{
+    padding:5%;
+    outline: solid 1px white;
+    background-image: url(../image/box-2.jpg);
+    /* background-position: 30px; */
+    box-shadow: 20px 0 40px 0px;
+    font-family: monospace;
+    font-size: larger;
+    background-size: 200px;
+    color: white;
+
+
+}
+.box2 h2{
+    color: white;
+}
+.box3{
+    padding:10%;
+    outline: solid 2px;
+
+}
+.box4{
+    padding:10%;
+    outline: solid 2px;
+    
+}
+.bgban{
+    background-image:url(../image/banner\ bg.jpg);
+    background-position-x: center;
+}
+
+    
+
