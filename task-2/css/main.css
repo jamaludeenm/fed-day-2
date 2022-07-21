@@ -72,6 +72,7 @@ padding: 20px;
     font-size: 40px;
     margin-bottom: 0%;
     font-family: Georgia, 'Times New Roman', Times, serif;
+    color: white;
 }
 .text-2{
     display: flex;
@@ -84,22 +85,23 @@ padding: 20px;
     justify-content: space-evenly;
 }
 .box1{
-    padding: 5%;
+    padding: 6%;
     outline: solid 1px white;
     background-image: url(../image/box-1.jpg);
     box-shadow: 20px 0 40px 0px;
-    font-family: sans-serif;
+    font-family:monospace;
     font-size: larger;
     background-size: 170px;
     color: white;
-    
+}
+.box1.h2{
+    color: white;
 
 }
 .box2{
     padding:5%;
     outline: solid 1px white;
     background-image: url(../image/box-2.jpg);
-    /* background-position: 30px; */
     box-shadow: 20px 0 40px 0px;
     font-family: monospace;
     font-size: larger;
@@ -112,19 +114,33 @@ padding: 20px;
     color: white;
 }
 .box3{
-    padding:10%;
-    outline: solid 2px;
+    padding:6%;
+    outline: solid 1px white;
+    background-image: url(../image/box-3.jpg);
+    box-shadow: 20px 0 40px 0px;
+    font-family: monospace;
+    font-size: larger;
+    background-size: 200px;
+    color: white;
 
 }
 .box4{
-    padding:10%;
-    outline: solid 2px;
+    padding: 9%;
+    outline: solid 1px white;
+    box-shadow: 20px 0 40px 0px;
+    background-image: url(../image/box-4.jpg);
+    font-family: monospace;
+    font-size: larger;
+    background-size: 500px;
+    color: white;
     
 }
 .bgban{
     background-image:url(../image/banner\ bg.jpg);
     background-position-x: center;
 }
+.box4 h2{
+    color: white;
+}   
 
-    
 
